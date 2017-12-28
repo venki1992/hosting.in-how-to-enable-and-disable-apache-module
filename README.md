@@ -180,11 +180,11 @@ In this shell script we are creating three methods to enable,disable and  getmod
 
 -> To enable module we have to execute shell script like this 
             sh scriptpath  enable module_name sofile_name  configuration_file
-            Ex:- sh  /scripts/httpmodule.sh enable proxy_wstunnel_module mod_proxy_wstunnel.so 00-proxy.conf
+            Ex:- sh  scriptfile.sh enable proxy_wstunnel_module mod_proxy_wstunnel.so 00-proxy.conf
             
 ->To disable module we have to execute shell script like this 
             sh scriptpath  disable module_name 
-            Ex:- sh  /scripts/httpmodule.sh disable proxy_wstunnel_module
+            Ex:- sh  scriptfile.sh disable proxy_wstunnel_module
 
 -> when we execute getmodule case we have to pass argument like this 
            sh scriptpath getmodule tempfilepath
